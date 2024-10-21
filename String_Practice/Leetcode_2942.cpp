@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 
 // Finds Words containing Charatcer
@@ -31,10 +32,10 @@ public:
 
 
 int main(){
-
     Solution solution;
-    vector<string> str {"leet","code"},
-    char x = 'e';
-    cout<<solution.findWordsContaining(str, x);
+    vector<string> str {"leet","code"};
+    char ch = 'e';
+    auto result = solution.findWordsContaining(str, ch);
+    
     return 0;
 }
