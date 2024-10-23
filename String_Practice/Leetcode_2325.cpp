@@ -16,10 +16,11 @@ public:
         string decoded_message;
         for (char ch : message) {
             if (ch == ' ') {
-                decoded_message += ' '; // Keep spaces as is
+                ; // Keep spaces as is it
+                decoded_message += ' ';
             }
-            else {
-                decoded_message += substitutionTable[ch]; // Replace using substitution table
+            else { // Replace using substitution table .....
+                decoded_message += substitutionTable[ch];
             }
         }
         return decoded_message;

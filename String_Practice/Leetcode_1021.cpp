@@ -4,10 +4,9 @@ using namespace std;
 class Solution {
 public:
     string removeOuterParentheses(string s) {
-        std::string result;
+    string result;
     int balance = 0;
     
-    // Traverse through the string
     for (char c : s) {
         if (c == '(') {
             // Only append when the balance is not zero (i.e., not the outermost '(')
