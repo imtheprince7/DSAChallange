@@ -31,7 +31,8 @@ int main(){
     Solution solution;
     string key ="the quick brown fox jumps over the lazy dog",
           message = "vkbs bs t suepuv";
-    cout<<solution.decodeMessage(key, message)<<endl;
+          string result = solution.decodeMessage(key, message);
+    cout<<"Answer is: \t"<<result<<endl;
     
     return 0;
 }
