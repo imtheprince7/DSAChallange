@@ -4,6 +4,7 @@
         "bitset": "cpp",
         "string_view": "cpp",
         "regex": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "leetcode_1207": "cpp"
     }
 }
