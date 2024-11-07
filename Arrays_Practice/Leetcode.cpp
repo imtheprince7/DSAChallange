@@ -1,18 +1,10 @@
 class Solution {
 public:
-    vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        vector<vector<string>> ans;
-    unordered_map<string, vector<string>> keyToAnagrams;
-
-    for (const string& str : strs) {
-      string key = str;
-      ranges::sort(key);
-      keyToAnagrams[key].push_back(str);
-    }
-
-    for (const auto& [_, anagrams] : keyToAnagrams)
-      ans.push_back(anagrams);
-
-    return ans;
+    bool isSameTree(TreeNode* p, TreeNode* q) {
+         if (!p || !q)
+      return p == q;
+    return p->val == q->val &&              //
+           isSameTree(p->left, q->left) &&  //
+           isSameTree(p->right, q->right);
     }
 };
