@@ -1,18 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Demo{
-       const string studentName;
-public:
-        Demo(string str ="Karan Singh" ): studentName(str) {  }
-
-    void getName(){ cout<<studentName <<endl; }
-};
-
+template <typename T>
+T getMax(T x , T y){
+    return x > y ? x :y;
+}
 
 int main(){
-    Demo demo;
-    demo.getName();
+    int a = 100, b = 990;
+    cout<< getMax<int>(a,b)<<endl;
 
     return 0;
 }
