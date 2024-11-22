@@ -32,11 +32,12 @@ class Solution {
 
 
 int main(){
-
+    Solution solution;
     vector<string> list1 = {"Shogun","Tapioca Express","Burger King","KFC"};
     vector<string> list2 = {"Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"};
     
-    auto answer = findRestaurant(list1, list2);
-    cout<<answer<<endl;
+    auto answer = solution.findRestaurant(list1, list2);
+    
+
     return 0;
 }
