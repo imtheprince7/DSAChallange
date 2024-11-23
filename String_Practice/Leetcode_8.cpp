@@ -37,7 +37,9 @@ class Solution {
 int main(){
     Solution solution;
     string str = " -042";
-    cout<< solution.myAtoi(str) <<endl;
+    // Funciton is not working here
 
+    cout<< solution.myAtoi(str) <<endl;
+    
     return 0;
 }
