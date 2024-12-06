@@ -9,6 +9,7 @@ public:
         for (int i = 1; ss >> s; ++i) {
             if (s.find(searchWord) == 0) {
                 return i;
+                // program will terminate here
             }
         }
         return -1;
