@@ -44,8 +44,8 @@ public:
 int main(){
     vector<int> arr = {5,4,2,4};
     Solution solution;
-    
-    cout<< solution.continuousSubarrays(arr) <<endl;
+    auto answer = solution.continuousSubarrays(arr);
+    cout<< answer <<endl;
 
 
     return 0;
