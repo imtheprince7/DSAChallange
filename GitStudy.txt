@@ -1,0 +1,32 @@
+
+ /*
+    " Learning git command from Udemy: Telusko Course "
+
+ */
+
+ 
+git init :    Initialize the .git file in the source file , So Git can track ( Modified, Untracked, Added ) Basically Stagging 			
+ 	          Point in git storage.
+ 	  git init
+ 	   
+ 	   
+git add :     Moving the particular file from the Local System ( Machine) to Git Server Adding that file to Git Server.
+	add " fileName.ext"
+	
+	
+git commit:   Commit means we are changing the stage of added file ( Added -> Stagged ).
+	  git commit -m  "message what you're updating"
+	  
+		
+git diff:     This command show the difference between the file what you have modified the content in your local system 
+	          compare to previous file ( Git Server ).
+	git diff "fileName.ext"
+	
+	     	
+diff --staged:     This command show the difference between the file what you have modified the content in your local system 
+	               Compare to previous file ( Git Server ) during stagged , when you have commited your file to Git. 
+	git diff -- staged "fileName.ext"
+	
+git rm: 	This command help us to completely remove the File from git server which we have accidently pushed but don't 	
+		    Want to share to anyone.
+	git rm --cached  "fileName.ext"
