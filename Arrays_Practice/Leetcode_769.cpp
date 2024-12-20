@@ -12,7 +12,6 @@ public:
       if (mx == i)
         ++ans;
     }
-
     return ans;
     }
 };
