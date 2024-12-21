@@ -30,3 +30,6 @@ diff --staged:     This command show the difference between the file what you ha
 git rm: 	This command help us to completely remove the File from git server which we have accidently pushed but don't 	
 		    Want to share to anyone.
 	git rm --cached  "fileName.ext"
+
+
+git push: 	THis command use to push the add -> ( stagged file ) to final github's account.
