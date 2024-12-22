@@ -33,3 +33,4 @@ git rm: 	This command help us to completely remove the File from git server whic
 
 
 git push: 	THis command use to push the added File ->  Commit File-> ( Stagged file ) to final github's account. ( Like sync from local system to Server System) permanently.
+			git push origin "branch-name"  ( git push origin main) : Origin :-> Origin meand the project URL
