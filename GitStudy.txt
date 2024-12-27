@@ -37,8 +37,8 @@ git push: 	THis command use to push the added File ->  Commit File-> ( Stagged f
 
 
 
-================================================================================================================================================================================
-		Create GIT Branch:
+======================================================================================
+		CREATE GIT Branch:
 
 git checkout:    "checkout" command along with Git is used to create another branch rather than "main" branch.
 		git checkout  -b "branch-name"
@@ -51,3 +51,13 @@ git branch:  "branch" command is used to check the total number of available bra
 ------------ How to move one Branch to other Branch-------
 git switch: 	"switch" commnad used to move one branch to other branch:
 	   git switch "branch-name"
+
+
+
+======================================================================================
+		DELETE GIT Branch:
+git branch -d:    -d comnnad used to delete the branch from the remote ( main-branch) 
+		git branch -d "branch-name"
+
+
+
