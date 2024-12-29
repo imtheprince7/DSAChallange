@@ -5,6 +5,7 @@
         "string_view": "cpp",
         "regex": "cpp",
         "ostream": "cpp",
-        "leetcode_1207": "cpp"
+        "leetcode_1207": "cpp",
+        "random": "cpp"
     }
 }
