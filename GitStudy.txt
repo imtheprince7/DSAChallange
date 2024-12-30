@@ -12,6 +12,9 @@ git init :    Initialize the .git file in the source file , So Git can track ( M
  	   
 git add :     Moving the particular file from the Local System ( Machine) to Git Server Adding that file to Git Server.
 	add " fileName.ext"
+
+git add (.):	"."  specify all the file in the directory rather than particular mention one by one Changed FIle manually.
+	git add ."	
 	
 	
 git commit:   Commit means we are changing the stage of added file ( Added -> Stagged ).
@@ -61,3 +64,35 @@ git branch -d:    -d comnnad used to delete the branch from the remote ( main-br
 
 
 
+======================================================================================
+			"""MERGE"""   GIT Branch:
+
+
+git merge:  git "merge" used to merge the code of another branch to "MAIN" branch ( testing -> FinalProduct).
+			Firstlt switch to "main-branch"  then perform this command to merge the feature-branach to main-branch.
+		git merge "another-branch-name"
+
+
+
+
+
+
+======================================================================================
+			"""Time_Travel """   Lite-version:
+
+git checkout: 	"checkout -b" command used in Time-Travel code.
+				( IF we want to make lite version of the product and want to get all the code by the particular commit)
+				( Then we use this command:		This Basically make "new- branch" and copy all the code till that. to new created-branch)
+
+		git checkout -b  "new-branch-name"
+
+
+
+
+======================================================================================
+			"""Git_Stash """   
+git stash:		If we want to save our work "WITHOUT COMMITING" and coming back to resume the work. then we have to do 
+				Stash rather than commit to the working branch. ( we can switch the branch without commiting the task over remote.)
+
+git stash apply: 	Once You back to your original "BRACNH" to resume your work. You have to hit " git stash apply" to start from resume stage.
+	git stash apply
